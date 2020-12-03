@@ -20,15 +20,17 @@ end
 def get_english_meaning(file, emoticon)
   new_file = load_library(file)
   english_meaning = ""
+  
   new_file.each do |meaning, values|
     sorry_message = "Sorry, that emoticon was not found"
     japanese_icon = values[:japanese]
+    
     if japanese_icon == emoticon
      english_meaning = meaning 
-   else
+    else
     puts sorry_message 
-  
-    end 
-end 
+   
+   end 
+  end 
 english_meaning 
 end
