@@ -29,7 +29,6 @@ def get_english_meaning(file, emoticon)
      english_meaning = meaning 
     else 
     sorry_message 
-   binding.pry 
    end 
   end 
 english_meaning 
