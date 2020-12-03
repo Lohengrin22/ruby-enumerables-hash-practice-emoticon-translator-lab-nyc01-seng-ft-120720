@@ -15,8 +15,10 @@ end
 def get_japanese_emoticon(file, emoticon)
   new_file = load_library(file)
   japanese_icon = ""
-  
-  
+  sorry_message = "Sorry, that emoticon was not found"
+  new_file.each do |meaning values|
+    
+  end 
 end
 
 def get_english_meaning(file, emoticon)
