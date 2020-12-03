@@ -21,7 +21,7 @@ def get_english_meaning(file, emoticon)
   new_file = load_library(file)
   new_file.each do |meaning, values|
     japanese_icon = values[:japanese]
-    if japanese_icon == true 
+    if japanese_icon ?  
       puts meaning
       binding.pry
     end 
