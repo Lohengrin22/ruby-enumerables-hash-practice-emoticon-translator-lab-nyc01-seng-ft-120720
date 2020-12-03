@@ -30,5 +30,4 @@ def get_english_meaning(file, emoticon)
      return meaning 
    end 
   end 
-  return sorry_message
 end
