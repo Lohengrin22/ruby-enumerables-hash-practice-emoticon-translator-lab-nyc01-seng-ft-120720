@@ -28,7 +28,7 @@ def get_english_meaning(file, emoticon)
     
     if japanese_icon == emoticon
      return meaning 
-    elsif emoticon != values[:japanese] && values[:english] 
+    else
     puts sorry_message 
    end 
   end 
