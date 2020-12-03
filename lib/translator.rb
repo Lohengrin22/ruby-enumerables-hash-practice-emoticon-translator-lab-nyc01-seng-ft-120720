@@ -29,6 +29,6 @@ def get_english_meaning(file, emoticon)
     if japanese_icon == emoticon
      return meaning 
    end 
-   sorry_message
   end 
+  sorry_message
 end
